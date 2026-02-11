@@ -6,6 +6,8 @@ import plotly.graph_objects as go
 def Drawing(dfTW, dfUS, dfMAIN, dfDAWHO):
 
     app = dash.Dash(__name__)   # 初始化 Dash 應用
+    server = app.server # 關鍵：為了讓 Render 部署，必須暴露 Flask server
+    
     fig = go.Figure()
 
     rowEvenColor = 'lightgrey'
