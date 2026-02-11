@@ -2,11 +2,15 @@ Flask==2.3.2
 flask-session==0.4.0
 gunicorn==21.2.0
 pandas
+yfinance
 datetime
-Decimal
+timedelta
+decimal
 numpy
 pyxirr
 tqdm
 math
 dash
+dcc
+html
 plotly
